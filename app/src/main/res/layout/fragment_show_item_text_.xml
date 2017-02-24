@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaiche.note.ShowItem_text_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/show_item_text_frg_framelayout">
+
+            <TextView
+            android:text="尚未選擇項目內容"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/show_item_text_frg_txv"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        </FrameLayout>
+
+
+
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/show_item_text_frg_igb"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/show_item_text_frg_igb_shape"
+        app:srcCompat="@drawable/edit"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp" />
+
+</FrameLayout>

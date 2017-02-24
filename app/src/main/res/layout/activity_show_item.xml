@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaiche.note.ShowItemActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyToolBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/show_item_toolbar" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/show_item_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TabWidget
+        android:id="@+id/show_item_tabwidget"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical"
+        android:background="@color/color_toolbar_background" >
+
+    </TabWidget>
+</LinearLayout>

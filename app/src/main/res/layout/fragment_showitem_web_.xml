@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaiche.note.Showitem_web_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="43dp"
+        android:layout_y="95dp"
+        android:id="@+id/show_item_web_framelayout"
+        android:background="@color/cast_expanded_controller_background_color">
+
+    </FrameLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_item_web_frg_webview" >
+
+    </WebView>
+
+    <ProgressBar
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_item_web_progressbar"
+        android:layout_marginTop="0dp"
+        android:elevation="0dp"
+        android:paddingTop="0dp"
+        android:minHeight="6dp"
+        android:progressDrawable="@drawable/web_progressbra" />
+
+</FrameLayout>
